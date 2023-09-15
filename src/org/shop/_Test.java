@@ -1,5 +1,8 @@
 package org.shop;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class _Test {
 
     public static void main(String[] args) {
@@ -25,6 +28,21 @@ public class _Test {
 	for (int i = 0; i < k; i++) {
 	    System.out.println(output[i]);
 	}
+
+	// Adding of list
+	List<String> li = new ArrayList<>();
+	li.add("a");
+	li.add("b");
+	li.add("c");
+	li.add("d");
+	li.add("e");
+
+	// Iterating the list
+	for (int i = 0; i < li.size(); i++) {
+	    String string = li.get(i);
+	    System.out.println(string);
+	}
+
     }
 
 }
