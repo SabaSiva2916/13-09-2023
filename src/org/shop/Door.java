@@ -1,6 +1,6 @@
 package org.shop;
 
-public class Door extends Sample implements _Test {
+public class Door extends Sample {
 
     public Door() {
 	super();
