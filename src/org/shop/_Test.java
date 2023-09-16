@@ -25,6 +25,19 @@ public class _Test {
 	for (int i = 0; i < k; i++) {
 	    System.out.println(output[i]);
 	}
+	// Reverse of code
+	String str = "java programm";
+	String out = "";
+	String[] split = str.split(" ");
+	for (String s : split) {
+	    for (int i = s.length() - 1; i >= 0; i--) {
+		char c = s.charAt(i);
+		out = out + c;
+	    }
+	    out = out + " ";
+	}
+
+	System.out.println(out);
     }
 
 }
